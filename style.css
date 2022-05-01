@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    background-color: #f1eaea;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.5cm;
+  
+}
+.one{
+    display: flex;
+    margin-top: -2%;
+    margin-left: 10%;
+}
+.one2{
+    display: flex;
+}
+.firstimage img{
+    background-image: url(/Images/fav.jpg);
+   height: 70%;
+   margin-right: -10%;
+}
+.abuagency img{
+      width: 50px;
+      height: 50px;
+      margin-left: -10%;
+      margin-top: 6%;
+}
+.topicons{
+    text-align: left;
+    margin-left:6% ;
+    margin-top: 4%;
+    padding: 4px;
+}
+h6{
+    color: #98CAC2;
+}
+.all{
+    width: 90%;
+    margin: auto;
+    height: max-content;
+    padding: 4%;
+}
+.introduction{
+    background-color: #FFFFFF;
+}
+
+.button1{
+    width:190px;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+}
+
+nav{
+    display: flex;
+    margin-left: 35%;
+    margin-top: -6%;
+ }
+nav  li {
+    list-style: none;
+   }
+nav li a {
+    text-decoration: none;
+    color: #575860;
+    display:flex;
+    padding: 30px;
+    }
+   .two{
+        display: flex;
+        height: 10%;
+        width: 90%;
+        margin: auto;
+        color: #321202;
+        padding: auto;
+      }
+      .projects{
+        text-align: center;
+        width: 34%;
+        padding: 30px;
+        margin: 9px;
+        box-shadow: 5px 5px 3px,-5px -5px 3px ; 
+      }
+    .logos{
+        display: flex;
+        width: 90%;
+        margin:5%;
+        justify-content: space-around;
+
+    }
+    .logoslack img{
+        height: 60px;
+        margin-top:50px ;
+    }
+    .logosprudential img{
+       height:60px;
+       margin-top: 50px;
+    }
+    
+.design{
+        display: flex;
+    }
+.market{
+        height: 60vh;
+        width: 70vw;
+        text-align: center;
+        padding-top: 90px;
+    }
+.work{
+        display: flex;
+        color: #3C241D;
+    }
+.works img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.works{
+   margin: 0 0 0 10%;
+
+
+}
+.work span{
+    color: #FFFFFF;
+    border-radius: 50px;
+    height: 30px;
+    width:30px;
+    padding: 5%;
+    font-size: 1cm;
+    }
+    .numbers{
+        display: inline-block;
+        padding: 1;
+    }
+.lady2{
+    margin: 0 0 0 0%;
+}
+h4{
+    font-weight: bolder;
+    color:#3C2117 ;
+}
+.signup{
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+    font-weight: bolder;
+}
+.signup input{
+    width: 50%;
+    height:40px;
+    border-radius: 15px; 
+    background-color: #49a091;
+    border-color: #49a091;
+    color: #FFFFFF;
+    font-size: 0.4cm;
+}
+.one1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.thisprojects{
+    justify-content: center;
+
+}
+.bottom{
+    display: flex;
+    width: 80vw;
+    margin-top: 5%;
+    }
+
+.lastcontent img{
+    width: 50px;
+    height:50px;
+    margin-top: 30px;
+}
+.lastcontent{
+ margin-left: 18%;
+ width: 30%;
+}
+.lastcontent button{
+    width: 190px;
+    height: 30px;
+    color: #321202;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.lastimage {
+  width: 60%;
+  margin:10% 0 60% 0;
+  background-image: url(/Images/pawel-czerwinski-3k9PGKWt7ik-unsplash.jpg);
+}
+.signbottom{
+    height: 30px;
+    width: 80%;
+    border-color: none;
+}
+
+.first{
+ margin-bottom:20px;
+}
+
+.third{
+    background-color:#f1eaea;
+}
