@@ -5,6 +5,9 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.5cm;
+    margin: 0;
+    padding: 0;
+    background-color: #F1EAEA;
   
 }
 .one{
@@ -14,11 +17,13 @@ body{
 }
 .one2{
     display: flex;
+    padding: 2%;
 }
 .firstimage img{
     background-image: url(/Images/fav.jpg);
    height: 70%;
-   margin-right: -10%;
+   /* margin-right: -10%; */
+   margin: 6% 0 0 0;
 }
 .abuagency img{
       width: 50px;
@@ -35,11 +40,15 @@ body{
 h6{
     color: #98CAC2;
 }
-.all{
-    width: 90%;
-    margin: auto;
-    height: max-content;
-    padding: 4%;
+.all{ 
+height: 100%;
+width: 1100px;
+margin-left: 7%;
+background-color: #FFFFFF;
+border: none;
+padding-bottom: 4%;
+overflow: hidden;
+
 }
 .introduction{
     background-color: #FFFFFF;
@@ -54,7 +63,7 @@ h6{
 
 nav{
     display: flex;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: -6%;
  }
 nav  li {
@@ -65,6 +74,9 @@ nav li a {
     color: #575860;
     display:flex;
     padding: 30px;
+    }
+    nav li a:hover{
+        background-color: #49a091;
     }
    .two{
         display: flex;
@@ -132,9 +144,9 @@ nav li a {
         display: inline-block;
         padding: 1;
     }
-.lady2{
+/* .lady2{
     margin: 0 0 0 0%;
-}
+} */
 h4{
     font-weight: bolder;
     color:#3C2117 ;
@@ -197,9 +209,21 @@ h4{
 }
 
 .first{
- margin-bottom:20px;
+ background-color: #FFFFFF;
+ margin: 7% 0 0 0;
+}
+.second{
+    margin-top: 5%;
 }
 
 .third{
     background-color:#f1eaea;
+    margin: 7%;
+}
+.sixth{
+    background-color: #FFFFFF;
+    height: 90vh;
+}
+.fourth{
+    background-color: #FFFFFF;
 }
