@@ -18,6 +18,8 @@ body{
 .one2{
     display: flex;
     padding: 2%;
+    margin: auto;
+    width: 90%;
 }
 .firstimage img{
 background-image: url(/Images/coloredweb.png);
@@ -227,4 +229,7 @@ h4{
 }
 .fourth{
     background-color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+
 }
