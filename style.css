@@ -76,6 +76,8 @@ nav li a {
     }
     nav li a:hover{
         background-color: #49a091;
+        border-radius: 20px;
+        height: 15px;
     }
    .two{
         display: flex;
